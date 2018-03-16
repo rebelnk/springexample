@@ -43,14 +43,14 @@
      <id>vcard-deploy</id>
  <distributionManagement>
     <repository>
-      <id>vcard-releases</id>
-      <name>vcard-releases</name>
-      <url>http://ec2-13-59-49-243.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-releases/</url>
+      <id>devops</id>
+      <name>devops</name>
+      <url>http://192.168.32.30:8081/nexus/content/repositories/devops/</url>
     </repository>
     <snapshotRepository>
-      <id>vcard-snapshots</id>
-      <name>vcard-snapshots</name>
-      <url>http://ec2-13-59-49-243.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/vcard-snapshots/</url>
+      <id>devops_snapshot</id>
+      <name>devops_snapshot</name>
+      <url>http://192.168.32.30:8081/nexus/content/repositories/devops_snapshot/</url>
     </snapshotRepository>
   </distributionManagement>
 </profile>
